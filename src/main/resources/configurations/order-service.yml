@@ -7,7 +7,7 @@ spring:
 
   datasource:
     url: jdbc:postgresql://localhost:5432/order_db
-    username: postgres
+    username: ecomm_backend
     password: Alex1999@_
     driver-class-name: org.postgresql.Driver
 
@@ -41,3 +41,4 @@ eureka:
        defaultZone: http://localhost:8761/eureka/
    instance:
      prefer-ip-address: true
+     instance-id: ${spring.application.name}:${server.port}
