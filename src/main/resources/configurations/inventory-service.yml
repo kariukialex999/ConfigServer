@@ -7,7 +7,7 @@ spring:
 
   datasource:
     url: jdbc:postgresql://localhost:5432/inventory_db
-    username: postgres
+    username: ecomm_backend
     password: Alex1999@_
     driver-class-name: org.postgresql.Driver
 
